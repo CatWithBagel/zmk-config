@@ -19,18 +19,6 @@
 #
 ---
 include:
-  - board: glove80_lh
-  - board: glove80_rh
-include:
-  - board: adafruit_kb2040
-    shield: osprette
-include:
-  - board: adafruit_kb2040
-    shield: osprette
-include:
-  - board: adafruit_kb2040
-    shield: osprette
-include:
   - board: rpi_pico_w
     shield: sofle_left
   - board: rpi_pico_w
