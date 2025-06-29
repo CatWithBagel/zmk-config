@@ -13,7 +13,7 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: rpi_pico_w
     shield: scylla_left
-  - board: nice_nano
+  - board: rpi_pico_w
     shield: scylla_right
