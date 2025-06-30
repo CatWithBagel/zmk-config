@@ -64,7 +64,7 @@ supported standard pin properties:
 To link pin configurations with a device, use a pinctrl-N property for some
 number N, like this example you could place in your board's DTS file:
 
-   #include "board-pinctrl.dtsi"
+   #include "rpi_pico_w-pinctrl.dtsi"
 
    &uart0 {
          pinctrl-0 = <&uart0_default>;
