@@ -1,4 +1,4 @@
-Raspberry Pi Pico Pin Controller
+/Raspberry Pi Pico Pin Controller
 
 Singleton node responsible for controlling pin function selection and pin
 properties, such as routing a UART0 Rx to pin 1 and enabling the pullup
