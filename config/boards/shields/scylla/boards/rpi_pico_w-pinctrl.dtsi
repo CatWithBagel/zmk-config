@@ -24,6 +24,7 @@
             /* Configure P16 for PIO to be used for MISO with input */
             pinmux = <PIO0_P12>;
             input-enable;
+            #gpio_cells;
         };
     };
 };
