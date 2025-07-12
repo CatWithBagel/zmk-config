@@ -1,16 +1,4 @@
-&pinctrl {
-  uart0_default: uart0_default {
-    group1 {
-      pinmux = <UART0_TX_P0>;
-    };
-    group2 {
-      pinmux = <UART0_RX_P1>;
-      input-enable;
-    };
-  };
-};
-
-&uart0 {
-  pinctrl-0 = <&uart0_default>;
-  pinctrl-names = "default";
+&spi0 {
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-names = "default";
 };
